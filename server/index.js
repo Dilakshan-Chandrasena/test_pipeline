@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 app.get("/",(req,res)=>{
-    res.status(200).json("Hello World!")
+    res.status(200).json("Hello World")
 })
 
 const PORT = 3000;
